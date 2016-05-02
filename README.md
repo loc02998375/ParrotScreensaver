@@ -1,1 +1,3 @@
 # ParrotScreensaver
+
+Crazy awesome screensaver

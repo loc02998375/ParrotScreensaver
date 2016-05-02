@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C22E5E221CD5F556003577A0 /* WalkingRoutine.swift in Sources */ = {isa = PBXBuildFile; fileRef = C22E5E211CD5F556003577A0 /* WalkingRoutine.swift */; };
+		C22E5E241CD5F5C8003577A0 /* UpSideDownWalkingRoutine.swift in Sources */ = {isa = PBXBuildFile; fileRef = C22E5E231CD5F5C8003577A0 /* UpSideDownWalkingRoutine.swift */; };
+		C22E5E2E1CD74AD4003577A0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C22E5E2D1CD74AD4003577A0 /* AppDelegate.swift */; };
+		C22E5E301CD74AD4003577A0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C22E5E2F1CD74AD4003577A0 /* ViewController.swift */; };
+		C22E5E321CD74AD4003577A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C22E5E311CD74AD4003577A0 /* Assets.xcassets */; };
+		C22E5E351CD74AD4003577A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C22E5E331CD74AD4003577A0 /* Main.storyboard */; };
+		C22E5E3A1CD74AF6003577A0 /* ParrotView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C22F6C3B1CD4C979005216FC /* ParrotView.swift */; };
+		C22E5E3B1CD74AF6003577A0 /* ParrotManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C24D107F1CD4CBE4009901E3 /* ParrotManager.swift */; };
+		C22E5E3D1CD74AF6003577A0 /* RoutineFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2DF9E3E1CD57D830048DD75 /* RoutineFactory.swift */; };
+		C22E5E3E1CD74AF6003577A0 /* Routine.swift in Sources */ = {isa = PBXBuildFile; fileRef = C24D108E1CD4D687009901E3 /* Routine.swift */; };
+		C22E5E3F1CD74AF6003577A0 /* SingleParrotRoutine.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2DF9E411CD57E620048DD75 /* SingleParrotRoutine.swift */; };
+		C22E5E401CD74AF6003577A0 /* BasicRoutine.swift in Sources */ = {isa = PBXBuildFile; fileRef = C24D10901CD4D769009901E3 /* BasicRoutine.swift */; };
+		C22E5E411CD74AF6003577A0 /* UpSideDownRoutine.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2DF9E3C1CD57D610048DD75 /* UpSideDownRoutine.swift */; };
+		C22E5E421CD74AF6003577A0 /* WalkingRoutine.swift in Sources */ = {isa = PBXBuildFile; fileRef = C22E5E211CD5F556003577A0 /* WalkingRoutine.swift */; };
+		C22E5E431CD74AF6003577A0 /* UpSideDownWalkingRoutine.swift in Sources */ = {isa = PBXBuildFile; fileRef = C22E5E231CD5F5C8003577A0 /* UpSideDownWalkingRoutine.swift */; };
+		C22E5E461CD75994003577A0 /* Painter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C22E5E451CD75994003577A0 /* Painter.swift */; };
+		C22E5E471CD764AB003577A0 /* Painter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C22E5E451CD75994003577A0 /* Painter.swift */; };
+		C22E5E4E1CD78535003577A0 /* MultipleParrotsRoutine.swift in Sources */ = {isa = PBXBuildFile; fileRef = C22E5E4D1CD78535003577A0 /* MultipleParrotsRoutine.swift */; };
+		C22E5E4F1CD78535003577A0 /* MultipleParrotsRoutine.swift in Sources */ = {isa = PBXBuildFile; fileRef = C22E5E4D1CD78535003577A0 /* MultipleParrotsRoutine.swift */; };
+		C22E5E511CD78600003577A0 /* RandomUpSideDownMultipleParrotRoutine.swift in Sources */ = {isa = PBXBuildFile; fileRef = C22E5E501CD78600003577A0 /* RandomUpSideDownMultipleParrotRoutine.swift */; };
+		C22E5E521CD78600003577A0 /* RandomUpSideDownMultipleParrotRoutine.swift in Sources */ = {isa = PBXBuildFile; fileRef = C22E5E501CD78600003577A0 /* RandomUpSideDownMultipleParrotRoutine.swift */; };
+		C22E5E571CD78EEB003577A0 /* MultipleRandomDisappearanceParrotsRoutine.swift in Sources */ = {isa = PBXBuildFile; fileRef = C22E5E561CD78EEB003577A0 /* MultipleRandomDisappearanceParrotsRoutine.swift */; };
+		C22E5E581CD78EEB003577A0 /* MultipleRandomDisappearanceParrotsRoutine.swift in Sources */ = {isa = PBXBuildFile; fileRef = C22E5E561CD78EEB003577A0 /* MultipleRandomDisappearanceParrotsRoutine.swift */; };
+		C22E5E5A1CD7936C003577A0 /* RandomUpSideDownDisappearanceMultipleParrotsRoutine.swift in Sources */ = {isa = PBXBuildFile; fileRef = C22E5E591CD7936C003577A0 /* RandomUpSideDownDisappearanceMultipleParrotsRoutine.swift */; };
+		C22E5E5B1CD7936C003577A0 /* RandomUpSideDownDisappearanceMultipleParrotsRoutine.swift in Sources */ = {isa = PBXBuildFile; fileRef = C22E5E591CD7936C003577A0 /* RandomUpSideDownDisappearanceMultipleParrotsRoutine.swift */; };
+		C22E5E5E1CD79779003577A0 /* thumbnail.png in Resources */ = {isa = PBXBuildFile; fileRef = C22E5E5C1CD79779003577A0 /* thumbnail.png */; };
+		C22E5E5F1CD79779003577A0 /* thumbnail.png in Resources */ = {isa = PBXBuildFile; fileRef = C22E5E5C1CD79779003577A0 /* thumbnail.png */; };
+		C22E5E601CD79779003577A0 /* thumbnail@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C22E5E5D1CD79779003577A0 /* thumbnail@2x.png */; };
+		C22E5E611CD79779003577A0 /* thumbnail@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C22E5E5D1CD79779003577A0 /* thumbnail@2x.png */; };
+		C22F6C3C1CD4C979005216FC /* ParrotView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C22F6C3B1CD4C979005216FC /* ParrotView.swift */; };
+		C24D10801CD4CBE4009901E3 /* ParrotManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C24D107F1CD4CBE4009901E3 /* ParrotManager.swift */; };
+		C24D108F1CD4D687009901E3 /* Routine.swift in Sources */ = {isa = PBXBuildFile; fileRef = C24D108E1CD4D687009901E3 /* Routine.swift */; };
+		C24D10911CD4D769009901E3 /* BasicRoutine.swift in Sources */ = {isa = PBXBuildFile; fileRef = C24D10901CD4D769009901E3 /* BasicRoutine.swift */; };
+		C2DF9E3D1CD57D610048DD75 /* UpSideDownRoutine.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2DF9E3C1CD57D610048DD75 /* UpSideDownRoutine.swift */; };
+		C2DF9E3F1CD57D830048DD75 /* RoutineFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2DF9E3E1CD57D830048DD75 /* RoutineFactory.swift */; };
+		C2DF9E421CD57E620048DD75 /* SingleParrotRoutine.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2DF9E411CD57E620048DD75 /* SingleParrotRoutine.swift */; };
+		C2FA2D531CD5EBFD001CF69B /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C22F6C341CD4C959005216FC /* Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C22E5E211CD5F556003577A0 /* WalkingRoutine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WalkingRoutine.swift; sourceTree = "<group>"; };
+		C22E5E231CD5F5C8003577A0 /* UpSideDownWalkingRoutine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpSideDownWalkingRoutine.swift; sourceTree = "<group>"; };
+		C22E5E2B1CD74AD4003577A0 /* ParrotApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ParrotApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C22E5E2D1CD74AD4003577A0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C22E5E2F1CD74AD4003577A0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C22E5E311CD74AD4003577A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C22E5E341CD74AD4003577A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C22E5E361CD74AD4003577A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C22E5E451CD75994003577A0 /* Painter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Painter.swift; sourceTree = "<group>"; };
+		C22E5E4D1CD78535003577A0 /* MultipleParrotsRoutine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultipleParrotsRoutine.swift; sourceTree = "<group>"; };
+		C22E5E501CD78600003577A0 /* RandomUpSideDownMultipleParrotRoutine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RandomUpSideDownMultipleParrotRoutine.swift; sourceTree = "<group>"; };
+		C22E5E561CD78EEB003577A0 /* MultipleRandomDisappearanceParrotsRoutine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultipleRandomDisappearanceParrotsRoutine.swift; sourceTree = "<group>"; };
+		C22E5E591CD7936C003577A0 /* RandomUpSideDownDisappearanceMultipleParrotsRoutine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RandomUpSideDownDisappearanceMultipleParrotsRoutine.swift; sourceTree = "<group>"; };
+		C22E5E5C1CD79779003577A0 /* thumbnail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = thumbnail.png; sourceTree = "<group>"; };
+		C22E5E5D1CD79779003577A0 /* thumbnail@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "thumbnail@2x.png"; sourceTree = "<group>"; };
+		C22F6C2D1CD4C959005216FC /* Parrot.saver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Parrot.saver; sourceTree = BUILT_PRODUCTS_DIR; };
+		C22F6C341CD4C959005216FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C22F6C3A1CD4C979005216FC /* Parrot-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Parrot-Bridging-Header.h"; sourceTree = "<group>"; };
+		C22F6C3B1CD4C979005216FC /* ParrotView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParrotView.swift; sourceTree = "<group>"; };
+		C24D107F1CD4CBE4009901E3 /* ParrotManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParrotManager.swift; sourceTree = "<group>"; };
+		C24D108E1CD4D687009901E3 /* Routine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Routine.swift; sourceTree = "<group>"; };
+		C24D10901CD4D769009901E3 /* BasicRoutine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasicRoutine.swift; sourceTree = "<group>"; };
+		C2DF9E3C1CD57D610048DD75 /* UpSideDownRoutine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpSideDownRoutine.swift; sourceTree = "<group>"; };
+		C2DF9E3E1CD57D830048DD75 /* RoutineFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoutineFactory.swift; sourceTree = "<group>"; };
+		C2DF9E411CD57E620048DD75 /* SingleParrotRoutine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SingleParrotRoutine.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C22E5E281CD74AD4003577A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C22F6C291CD4C959005216FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C22E5E2C1CD74AD4003577A0 /* ParrotApp */ = {
+			isa = PBXGroup;
+			children = (
+				C22E5E2D1CD74AD4003577A0 /* AppDelegate.swift */,
+				C22E5E2F1CD74AD4003577A0 /* ViewController.swift */,
+				C22E5E311CD74AD4003577A0 /* Assets.xcassets */,
+				C22E5E331CD74AD4003577A0 /* Main.storyboard */,
+				C22E5E361CD74AD4003577A0 /* Info.plist */,
+			);
+			path = ParrotApp;
+			sourceTree = "<group>";
+		};
+		C22F6C231CD4C959005216FC = {
+			isa = PBXGroup;
+			children = (
+				C22F6C2F1CD4C959005216FC /* Parrot */,
+				C22E5E2C1CD74AD4003577A0 /* ParrotApp */,
+				C22F6C2E1CD4C959005216FC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C22F6C2E1CD4C959005216FC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C22F6C2D1CD4C959005216FC /* Parrot.saver */,
+				C22E5E2B1CD74AD4003577A0 /* ParrotApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C22F6C2F1CD4C959005216FC /* Parrot */ = {
+			isa = PBXGroup;
+			children = (
+				C22F6C3B1CD4C979005216FC /* ParrotView.swift */,
+				C24D107F1CD4CBE4009901E3 /* ParrotManager.swift */,
+				C22E5E451CD75994003577A0 /* Painter.swift */,
+				C22E5E5C1CD79779003577A0 /* thumbnail.png */,
+				C22E5E5D1CD79779003577A0 /* thumbnail@2x.png */,
+				C2DF9E401CD57E440048DD75 /* Routine */,
+				C22F6C341CD4C959005216FC /* Info.plist */,
+				C22F6C3A1CD4C979005216FC /* Parrot-Bridging-Header.h */,
+			);
+			path = Parrot;
+			sourceTree = "<group>";
+		};
+		C2DF9E401CD57E440048DD75 /* Routine */ = {
+			isa = PBXGroup;
+			children = (
+				C2DF9E3E1CD57D830048DD75 /* RoutineFactory.swift */,
+				C24D108E1CD4D687009901E3 /* Routine.swift */,
+				C2DF9E411CD57E620048DD75 /* SingleParrotRoutine.swift */,
+				C24D10901CD4D769009901E3 /* BasicRoutine.swift */,
+				C2DF9E3C1CD57D610048DD75 /* UpSideDownRoutine.swift */,
+				C22E5E211CD5F556003577A0 /* WalkingRoutine.swift */,
+				C22E5E231CD5F5C8003577A0 /* UpSideDownWalkingRoutine.swift */,
+				C22E5E4D1CD78535003577A0 /* MultipleParrotsRoutine.swift */,
+				C22E5E501CD78600003577A0 /* RandomUpSideDownMultipleParrotRoutine.swift */,
+				C22E5E561CD78EEB003577A0 /* MultipleRandomDisappearanceParrotsRoutine.swift */,
+				C22E5E591CD7936C003577A0 /* RandomUpSideDownDisappearanceMultipleParrotsRoutine.swift */,
+			);
+			name = Routine;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		C22F6C2A1CD4C959005216FC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		C22E5E2A1CD74AD4003577A0 /* ParrotApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C22E5E391CD74AD4003577A0 /* Build configuration list for PBXNativeTarget "ParrotApp" */;
+			buildPhases = (
+				C22E5E271CD74AD4003577A0 /* Sources */,
+				C22E5E281CD74AD4003577A0 /* Frameworks */,
+				C22E5E291CD74AD4003577A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ParrotApp;
+			productName = ParrotApp;
+			productReference = C22E5E2B1CD74AD4003577A0 /* ParrotApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C22F6C2C1CD4C959005216FC /* Parrot */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C22F6C371CD4C959005216FC /* Build configuration list for PBXNativeTarget "Parrot" */;
+			buildPhases = (
+				C22F6C281CD4C959005216FC /* Sources */,
+				C22F6C291CD4C959005216FC /* Frameworks */,
+				C22F6C2A1CD4C959005216FC /* Headers */,
+				C22F6C2B1CD4C959005216FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Parrot;
+			productName = Parrot;
+			productReference = C22F6C2D1CD4C959005216FC /* Parrot.saver */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C22F6C241CD4C959005216FC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = RollingPotato;
+				TargetAttributes = {
+					C22E5E2A1CD74AD4003577A0 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					C22F6C2C1CD4C959005216FC = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = C22F6C271CD4C959005216FC /* Build configuration list for PBXProject "Parrot" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C22F6C231CD4C959005216FC;
+			productRefGroup = C22F6C2E1CD4C959005216FC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C22F6C2C1CD4C959005216FC /* Parrot */,
+				C22E5E2A1CD74AD4003577A0 /* ParrotApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C22E5E291CD74AD4003577A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C22E5E321CD74AD4003577A0 /* Assets.xcassets in Resources */,
+				C22E5E611CD79779003577A0 /* thumbnail@2x.png in Resources */,
+				C22E5E351CD74AD4003577A0 /* Main.storyboard in Resources */,
+				C22E5E5F1CD79779003577A0 /* thumbnail.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C22F6C2B1CD4C959005216FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C22E5E5E1CD79779003577A0 /* thumbnail.png in Resources */,
+				C2FA2D531CD5EBFD001CF69B /* Info.plist in Resources */,
+				C22E5E601CD79779003577A0 /* thumbnail@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C22E5E271CD74AD4003577A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C22E5E3A1CD74AF6003577A0 /* ParrotView.swift in Sources */,
+				C22E5E521CD78600003577A0 /* RandomUpSideDownMultipleParrotRoutine.swift in Sources */,
+				C22E5E401CD74AF6003577A0 /* BasicRoutine.swift in Sources */,
+				C22E5E411CD74AF6003577A0 /* UpSideDownRoutine.swift in Sources */,
+				C22E5E5B1CD7936C003577A0 /* RandomUpSideDownDisappearanceMultipleParrotsRoutine.swift in Sources */,
+				C22E5E3E1CD74AF6003577A0 /* Routine.swift in Sources */,
+				C22E5E4F1CD78535003577A0 /* MultipleParrotsRoutine.swift in Sources */,
+				C22E5E3B1CD74AF6003577A0 /* ParrotManager.swift in Sources */,
+				C22E5E581CD78EEB003577A0 /* MultipleRandomDisappearanceParrotsRoutine.swift in Sources */,
+				C22E5E301CD74AD4003577A0 /* ViewController.swift in Sources */,
+				C22E5E3F1CD74AF6003577A0 /* SingleParrotRoutine.swift in Sources */,
+				C22E5E2E1CD74AD4003577A0 /* AppDelegate.swift in Sources */,
+				C22E5E3D1CD74AF6003577A0 /* RoutineFactory.swift in Sources */,
+				C22E5E431CD74AF6003577A0 /* UpSideDownWalkingRoutine.swift in Sources */,
+				C22E5E421CD74AF6003577A0 /* WalkingRoutine.swift in Sources */,
+				C22E5E471CD764AB003577A0 /* Painter.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C22F6C281CD4C959005216FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C22F6C3C1CD4C979005216FC /* ParrotView.swift in Sources */,
+				C24D108F1CD4D687009901E3 /* Routine.swift in Sources */,
+				C24D10911CD4D769009901E3 /* BasicRoutine.swift in Sources */,
+				C22E5E511CD78600003577A0 /* RandomUpSideDownMultipleParrotRoutine.swift in Sources */,
+				C22E5E4E1CD78535003577A0 /* MultipleParrotsRoutine.swift in Sources */,
+				C22E5E221CD5F556003577A0 /* WalkingRoutine.swift in Sources */,
+				C2DF9E421CD57E620048DD75 /* SingleParrotRoutine.swift in Sources */,
+				C2DF9E3D1CD57D610048DD75 /* UpSideDownRoutine.swift in Sources */,
+				C22E5E571CD78EEB003577A0 /* MultipleRandomDisappearanceParrotsRoutine.swift in Sources */,
+				C22E5E461CD75994003577A0 /* Painter.swift in Sources */,
+				C22E5E5A1CD7936C003577A0 /* RandomUpSideDownDisappearanceMultipleParrotsRoutine.swift in Sources */,
+				C24D10801CD4CBE4009901E3 /* ParrotManager.swift in Sources */,
+				C22E5E241CD5F5C8003577A0 /* UpSideDownWalkingRoutine.swift in Sources */,
+				C2DF9E3F1CD57D830048DD75 /* RoutineFactory.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C22E5E331CD74AD4003577A0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C22E5E341CD74AD4003577A0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C22E5E371CD74AD4003577A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ParrotApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rollingpotato.ParrotApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C22E5E381CD74AD4003577A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ParrotApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rollingpotato.ParrotApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C22F6C351CD4C959005216FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx10.11;
+			};
+			name = Debug;
+		};
+		C22F6C361CD4C959005216FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx10.11;
+			};
+			name = Release;
+		};
+		C22F6C381CD4C959005216FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				INFOPLIST_FILE = Parrot/Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rollingpotato.Parrot;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx10.11;
+				SWIFT_OBJC_BRIDGING_HEADER = "Parrot/Parrot-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				WRAPPER_EXTENSION = saver;
+			};
+			name = Debug;
+		};
+		C22F6C391CD4C959005216FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				INFOPLIST_FILE = Parrot/Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rollingpotato.Parrot;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx10.11;
+				SWIFT_OBJC_BRIDGING_HEADER = "Parrot/Parrot-Bridging-Header.h";
+				WRAPPER_EXTENSION = saver;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C22E5E391CD74AD4003577A0 /* Build configuration list for PBXNativeTarget "ParrotApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C22E5E371CD74AD4003577A0 /* Debug */,
+				C22E5E381CD74AD4003577A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C22F6C271CD4C959005216FC /* Build configuration list for PBXProject "Parrot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C22F6C351CD4C959005216FC /* Debug */,
+				C22F6C361CD4C959005216FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C22F6C371CD4C959005216FC /* Build configuration list for PBXNativeTarget "Parrot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C22F6C381CD4C959005216FC /* Debug */,
+				C22F6C391CD4C959005216FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C22F6C241CD4C959005216FC /* Project object */;
+}
