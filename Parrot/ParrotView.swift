@@ -28,12 +28,12 @@ class ParrotView: ScreenSaverView {
     
     override func drawRect(rect: NSRect) {
         // bg
-        let bgPath = NSBezierPath(rect: self.bounds)
+        let bgPath = NSBezierPath(rect: rect)
         NSColor.whiteColor().set()
         bgPath.fill()
         
         // drawing
-        currentRoutine.drawNextFrameIfNeccessary(self.bounds.size, screenScale: NSScreen.mainScreen()?.backingScaleFactor ?? 1.0)
+        currentRoutine.drawNextFrameIfNeccessary(rect.size, screenScale: NSScreen.mainScreen()?.backingScaleFactor ?? 1.0)
         
         if currentRoutine.isCompleted {
             self.currentRoutine = RoutineFactory.getNewRoutine()
